@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #255070;
+}
+
+body{
+    background-color: #f6f8fa;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 1rem;
+}
+
+.left{
+    background-color: #f0f0f0;
+    box-shadow: #255070;
+    border-radius: 10px;
+}
+
+.foto{
+    position: relative;
+}
+
+.foto img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.foto h1{
+    position: absolute;
+    bottom: 1rem;
+    color: r#255070;
+    width: 100%;
+    text-align: center;
+}
+
+i{
+    color: #255070;
+
+}
+
+.pessoais, .Habilidades, .idiomas{
+    color: #416d8f;
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+.pessoais{
+    font-size: 1.1rem;
+}
+
+progress{
+    width: 100%;
+    height: 1.8rem;
+}
+
+.Sobre, .Experiencias, .Educacao{
+    padding: 1.5rem;
+    background-color: #f0f0f0;
+    box-shadow: 7px 7px 10px #255070;
+    border-radius: 10px;
+}
+
+.Sobre p{
+    margin-top: 1rem;
+}
+
+.Experiencias, .Educacao {
+    margin-top: 1rem;
+}
+
+.trabalho, .Curso{
+    margin: 1.5rem 0;
+}
+
+.nome-trabalho, .nome-curso{
+    font-size: 1.3;
+    font-weight: bold;
+}
+
+.trabalho p, .Educacao p{
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.data{
+    color: #255070;
+}
+.atual{
+    background-color: #416d8f;
+    color: #f0f0f0;
+    padding: 0.1rem 1rem;
+    border-radius: 5px;
+
+}
+
+footer{
+    background-color: #255070;
+    color: #f0f0f0;
+    padding: 1.5rem 0;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+footer p{
+    color: #f0f0f0;
+}
+
+footer i{
+    margin-top: 0.5rem;
+    color: #f0f0f0;
+    font-size: 32px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 880px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
