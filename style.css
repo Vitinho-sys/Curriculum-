@@ -25,7 +25,7 @@ main{
 
 .left{
     background-color: #f0f0f0;
-    box-shadow: #255070;
+    box-shadow: #3b7bac;
     border-radius: 10px;
 }
 
@@ -42,7 +42,7 @@ main{
 .foto h1{
     position: absolute;
     bottom: 1rem;
-    color: r#255070;
+    color: #010407;
     width: 100%;
     text-align: center;
 }
